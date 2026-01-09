@@ -37,14 +37,6 @@ body {
     0 0 25px rgba(255,255,255,0.1),
     0 0 0 1px rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 
-    0 0 35px rgba(255,255,255,0.2),
-    0 0 50px rgba(0, 240, 255, 0.1);
 }
 
 .avatar {
@@ -54,27 +46,13 @@ body {
   margin-bottom: 18px;
   object-fit: cover;
   border: 2px solid rgba(255,255,255,0.3);
-  box-shadow: 
-    0 0 20px rgba(255,255,255,0.1),
-    0 0 10px rgba(0, 0, 0, 0.5) inset;
-  transition: all 0.3s ease;
-}
-
-.avatar:hover {
-  transform: scale(1.1);
-  border-color: rgba(255,255,255,0.6);
-  box-shadow: 
-    0 0 25px rgba(0, 240, 255, 0.5),
-    0 0 35px rgba(255, 0, 255, 0.3);
+  box-shadow: 0 0 20px rgba(255,255,255,0.15);
 }
 
 h1 {
   font-size: 22px;
-  font-weight: 600;
   margin-bottom: 20px;
-  letter-spacing: 1px;
   color: #fff;
-  text-shadow: 0 0 10px rgba(255,255,255,0.3);
 }
 
 .icons {
@@ -85,13 +63,7 @@ h1 {
   color: #fff;
   margin: 0 12px;
   font-size: 24px;
-  transition: all 0.25s ease;
-  display: inline-block;
-}
-
-.icons a:hover {
-  transform: scale(1.3);
-  text-shadow: 0 0 12px #fff;
+  transition: 0.25s;
 }
 
 /* TikTok */
@@ -112,61 +84,42 @@ h1 {
   text-shadow: 0 0 15px #5865F2;
 }
 
-/* Telegram */
-.icons a:nth-child(4):hover {
-  color: #0088cc;
-  text-shadow: 0 0 15px #0088cc;
-}
-
 /* زر التحميل */
 .btn {
   display: inline-block;
   margin-top: 25px;
   padding: 16px 35px;
-  border: 1px solid rgba(255,255,255,0.3);
   border-radius: 30px;
+  border: 1px solid rgba(255,255,255,0.3);
   color: #fff;
   text-decoration: none;
-  font-weight: 500;
-  transition: all 0.25s ease;
-  background: rgba(0, 0, 0, 0.7);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  background: rgba(0,0,0,0.7);
+  transition: 0.25s;
 }
 
 .btn:hover {
-  transform: scale(1.05);
-  background: rgba(20, 20, 20, 0.9);
-  border-color: rgba(255,255,255,0.5);
-  box-shadow: 
-    0 0 15px rgba(255,255,255,0.2),
-    0 0 25px rgba(0, 240, 255,0.2);
+  background: rgba(20,20,20,0.9);
+  box-shadow: 0 0 20px rgba(255,255,255,0.25);
 }
 
-/* Footer */
+/* الفوتر */
 .footer {
   width: 100%;
   max-width: 360px;
-  margin: 30px auto 0;
+  margin-top: 30px;
   text-align: center;
   font-size: 14px;
   color: rgba(255,255,255,0.6);
-  font-weight: 500;
 }
 
 .footer a {
-  margin: 0 8px;
-  text-decoration: none;
   color: rgba(255,255,255,0.6);
-  transition: all 0.3s ease;
+  text-decoration: none;
+  margin: 0 6px;
 }
 
 .footer a:hover {
   color: #00f0ff;
-  text-shadow: 0 0 10px #00f0ff;
-}
-
-.footer span {
-  color: rgba(255,255,255,0.3);
 }
 </style>
 </head>
@@ -174,7 +127,7 @@ h1 {
 <body>
 
 <div class="card">
-  <img src="https://i.imgur.com/ebvJ622.png" class="avatar" alt="Avatar">
+  <img src="https://i.imgur.com/ebvJ622.png" class="avatar" alt="avatar">
 
   <h1>tweks</h1>
 
@@ -182,20 +135,20 @@ h1 {
     <a href="https://www.tiktok.com/@rezyy66x" target="_blank"><i class="fab fa-tiktok"></i></a>
     <a href="https://www.youtube.com/@r2vRezyy" target="_blank"><i class="fab fa-youtube"></i></a>
     <a href="https://discord.com/users/rezyy66" target="_blank"><i class="fab fa-discord"></i></a>
-    <a href="https://t.me/rezyy66" target="_blank"><i class="fab fa-telegram"></i></a>
   </div>
 
-  <a class="btn" target="_blank" href="https://cdn.discordapp.com/attachments/1421043652339433512/1457296277740982395/rezyy_tweks_v1.exe">
+  <a class="btn" target="_blank"
+     href="https://cdn.discordapp.com/attachments/1449859486918639717/1457428928741376071/rezyy_tweks_v1.exe?ex=6961e6b6&is=69609536&hm=997626f16d972819b9071add7a4ef50cbdd37861945ffc173d3382537db74b0d&">
     tweks v1
   </a>
 </div>
 
 <footer class="footer">
-  <a href="https://discord.gg/zucw3NDSSQ" target="_blank">الدعم الفني</a>
-  <span>|</span>
+  <a href="mailto:rezyy777@gmail.com?subject=Support%20Tweks&body=Hello,%20I%20am%20experiencing%20an%20issue%20with%20Tweks%20v1%20and%20I%20would%20appreciate%20your%20assistance.%20Thank%20you.">
+    الدعم الفني
+  </a>
+  |
   <a href="privacy.html" target="_blank">الخصوصية</a>
-  <span>|</span>
-  <a href="https://tinyurl.com/3fmvvkd6" target="_blank">الأمان</a>
 </footer>
 
 </body>
